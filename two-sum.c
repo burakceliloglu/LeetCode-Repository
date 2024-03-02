@@ -8,7 +8,7 @@ int	*twoSum(int *nums, int numsSize, int target, int *returnSize)
 	while (i < numsSize)
 	{
 		j = i + 1;
-		while (j <numsSize)
+		while (j < numsSize)
 		{
 			if (nums[i] + nums[j] == target)
 			{
